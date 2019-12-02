@@ -1,8 +1,7 @@
 package hidden.style.day.one;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import hidden.style.util.Utils;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -16,8 +15,6 @@ public class AoCDay1 {
     public static double findFuelRequirementPart2(double mass) {
         double fuelRequired = 0;
         while ( mass > 0) {
-
-
             double remainingMass = findFuelRequirementPart1(mass);
             mass = remainingMass;
             if(remainingMass > 0) {
@@ -28,8 +25,7 @@ public class AoCDay1 {
     }
 
     public static void main(String[] args) throws IOException {
-        File file = new File("src/hidden/style/day/one/AdventOfCodeDay1.txt");
-        Scanner scan = new Scanner(file);
+        Scanner scan = Utils.getScan("src/hidden/style/day/one/AdventOfCodeDay1.txt");
         double totalFuelRequired = 0;
         while (scan.hasNextLine()) {
             String nextLine = scan.next();
