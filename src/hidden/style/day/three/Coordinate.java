@@ -1,19 +1,22 @@
 package hidden.style.day.three;
 
+import java.util.Objects;
+
 public class Coordinate {
 
-    private Long x;
-    public Long getX() { return x; }
-    private Long y;
-    public Long getY() { return y; }
+    private Integer x;
+    public int getX() { return x; }
+    private Integer y;
+    public int getY() { return y; }
 
-    public Coordinate(Long x, Long y) {
+    public Coordinate(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public boolean matches(Long x, Long y) {
-        return this.x == x && this.y == y;
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
     }
 
     @Override
@@ -22,10 +25,5 @@ public class Coordinate {
             return this.x == ((Coordinate) obj).x && this.y == ((Coordinate) obj).y;
         }
         return false;
-    }
-
-    @Override
-    public int hashCode() {
-        return x.hashCode() ^ y.hashCode();
     }
 }
