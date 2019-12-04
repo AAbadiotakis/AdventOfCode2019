@@ -18,15 +18,9 @@ public class AoCDay4 {
         for ( int i = startingInteger; i < endingInteger; i++) {
             String str = String.valueOf(i);
 
-            if( str.contains("11") ||
-                str.contains("22") ||
-                str.contains("33") ||
-                str.contains("44") ||
-                str.contains("55") ||
-                str.contains("66") ||
-                str.contains("77") ||
-                str.contains("88") ||
-                str.contains("99")) {
+            if(     (str.contains("11") && !str.contains("111")) || (str.contains("22") && !str.contains("222")) || (str.contains("33") && !str.contains("333")) ||
+                    (str.contains("44") && !str.contains("444")) || (str.contains("55") && !str.contains("555")) || (str.contains("66") && !str.contains("666")) ||
+                    (str.contains("77") && !str.contains("777")) || (str.contains("88") && !str.contains("888")) || (str.contains("99") && !str.contains("999"))) {
 
                 if(     Integer.parseInt(str.substring(0,1)) <= Integer.parseInt(str.substring(1,2)) &&
                         Integer.parseInt(str.substring(1,2)) <= Integer.parseInt(str.substring(2,3)) &&
