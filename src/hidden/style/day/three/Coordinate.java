@@ -8,10 +8,14 @@ public class Coordinate {
     public int getX() { return x; }
     private Integer y;
     public int getY() { return y; }
+    private Integer distanceTravelled;
+    public int getDistanceTravelled() { return distanceTravelled; }
 
-    public Coordinate(int x, int y) {
+
+    public Coordinate(int x, int y, int distanceTravelled) {
         this.x = x;
         this.y = y;
+        this.distanceTravelled = distanceTravelled;
     }
 
     @Override

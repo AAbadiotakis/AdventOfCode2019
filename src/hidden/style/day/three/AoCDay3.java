@@ -14,10 +14,12 @@ public class AoCDay3 {
         String[] arr = str.split(",");
         int x = 0;
         int y = 0;
+        int distanceTravelled = 0;
         for ( String cmd : arr) {
             String direction = cmd.substring(0,1);
             long distanceMoved = Integer.parseInt(cmd.substring(1));
             for (int i = 1; i <= distanceMoved; i++) {
+                distanceTravelled++;
                 if (direction.equalsIgnoreCase("L")) {
                     x--;
                 } else if(direction.equalsIgnoreCase("R")) {
@@ -27,7 +29,7 @@ public class AoCDay3 {
                 } else if(direction.equalsIgnoreCase("D")) {
                     y--;
                 }
-                Coordinate coordinate = new Coordinate(x,y);
+                Coordinate coordinate = new Coordinate(x,y, distanceTravelled);
                 coordinateList.add(coordinate);
             }
         }
@@ -40,11 +42,12 @@ public class AoCDay3 {
         Scanner scan = Utils.getScan("src/hidden/style/day/three/AdventOfCodeDay3.txt");
 
         int closestCollision = Integer.MAX_VALUE;
+        int closestDistanceTravelled = Integer.MAX_VALUE;
+
         List<Coordinate> coordinateList = new ArrayList<Coordinate>();
         while(scan.hasNextLine()) {
             coordinateList.addAll(getCoordinateList(scan.nextLine()));
         }
-        int collision = Integer.MAX_VALUE;
 
         for (Coordinate coordinate : coordinateList) {
             int numMatches = 0;
@@ -54,14 +57,26 @@ public class AoCDay3 {
                 }
             }
             if(numMatches > 1) {
+                /* Part 1 */
                 int collides = Math.abs(coordinate.getX()) + Math.abs(coordinate.getY());
-                if(collision > collides) {
-                    collision = collides;
+                if(closestCollision > collides) {
+                    closestCollision = collides;
                 }
+
+                /* Part 2 */
+                int distTravelled = coordinateList.stream()
+                        .filter(coordinate1 -> coordinate1.equals(coordinate))
+                        .mapToInt(Coordinate::getDistanceTravelled)
+                        .sum();
+                if (closestDistanceTravelled > distTravelled) {
+                    closestDistanceTravelled = distTravelled;
+                }
+
             }
         }
 
-        System.out.println(collision);
+        System.out.println(closestCollision);
+        System.out.println(closestDistanceTravelled);
 
     }
 }
