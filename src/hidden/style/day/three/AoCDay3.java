@@ -8,17 +8,17 @@ import java.util.stream.Collectors;
 
 public class AoCDay3 {
 
-
-    public static List<Coordinate> getCoordinateList(String str) {
-        List<Coordinate> coordinateList = new ArrayList<>();
+    static Map<String, Integer> getCoordinateList(String str) {
         String[] arr = str.split(",");
         int x = 0;
         int y = 0;
         int distanceTravelled = 0;
-        for ( String cmd : arr) {
+        Map<String, Integer> coordinateList = new HashMap<String, Integer>();
+
+        for (String cmd : arr) {
             String direction = cmd.substring(0,1);
-            long distanceMoved = Integer.parseInt(cmd.substring(1));
-            for (int i = 1; i <= distanceMoved; i++) {
+            int distanceMoved = Integer.parseInt(cmd.substring(1));
+            for (int i = 0; i < distanceMoved ; i++) {
                 distanceTravelled++;
                 if (direction.equalsIgnoreCase("L")) {
                     x--;
@@ -29,11 +29,40 @@ public class AoCDay3 {
                 } else if(direction.equalsIgnoreCase("D")) {
                     y--;
                 }
-                Coordinate coordinate = new Coordinate(x,y, distanceTravelled);
-                coordinateList.add(coordinate);
+                if (!coordinateList.containsKey(x + "," + y)) {
+                    coordinateList.put(x + "," + y, distanceTravelled);
+                }
             }
         }
         return coordinateList;
+    }
+
+    static Set<String> intersection(Set<String> A, Set<String> B) {
+        return A.stream().filter(B::contains).collect(Collectors.toSet());
+    }
+
+    static int getClosestIntersectionPart1(Set<String> intersections) {
+        int closestIntersection = Integer.MAX_VALUE;
+        for (String str : intersections) {
+            int x = Integer.parseInt(str.split(",")[0]);
+            int y = Integer.parseInt(str.split(",")[1]);
+            int intersectedManhattanDistance = Math.abs(x) + Math.abs(y);
+            if (closestIntersection > intersectedManhattanDistance) {
+                closestIntersection = intersectedManhattanDistance;
+            }
+        }
+        return closestIntersection;
+    }
+
+    static int getClosestIntersectionPart2(Set<String> intersections, Map<String, Integer> a, Map<String, Integer> b) {
+        int closestIntersection = Integer.MAX_VALUE;
+        for(String str : intersections) {
+            int i = a.get(str) + b.get(str);
+            if(closestIntersection > i) {
+                closestIntersection = i;
+            }
+        }
+        return closestIntersection;
     }
 
 
@@ -41,42 +70,17 @@ public class AoCDay3 {
     public static void main(String[] args) throws IOException {
         Scanner scan = Utils.getScan("src/hidden/style/day/three/AdventOfCodeDay3.txt");
 
-        int closestCollision = Integer.MAX_VALUE;
-        int closestDistanceTravelled = Integer.MAX_VALUE;
+        Map<String, Integer> a = getCoordinateList(scan.nextLine());
+        Map<String, Integer> b = getCoordinateList(scan.nextLine());
 
-        List<Coordinate> coordinateList = new ArrayList<Coordinate>();
-        while(scan.hasNextLine()) {
-            coordinateList.addAll(getCoordinateList(scan.nextLine()));
-        }
+        Set<String> intersections = intersection(a.keySet(), b.keySet());
+        System.out.println(intersections);
 
-        for (Coordinate coordinate : coordinateList) {
-            int numMatches = 0;
-            for (Coordinate c : coordinateList) {
-                if(c.getX() == coordinate.getX() && c.getY() == coordinate.getY()) {
-                    numMatches++;
-                }
-            }
-            if(numMatches > 1) {
-                /* Part 1 */
-                int collides = Math.abs(coordinate.getX()) + Math.abs(coordinate.getY());
-                if(closestCollision > collides) {
-                    closestCollision = collides;
-                }
+        int answer_part1 = getClosestIntersectionPart1(intersections);
+        int answer_part2 = getClosestIntersectionPart2(intersections, a, b);
 
-                /* Part 2 */
-                int distTravelled = coordinateList.stream()
-                        .filter(coordinate1 -> coordinate1.equals(coordinate))
-                        .mapToInt(Coordinate::getDistanceTravelled)
-                        .sum();
-                if (closestDistanceTravelled > distTravelled) {
-                    closestDistanceTravelled = distTravelled;
-                }
-
-            }
-        }
-
-        System.out.println(closestCollision);
-        System.out.println(closestDistanceTravelled);
+        System.out.println(answer_part1);
+        System.out.println(answer_part2);
 
     }
 }
