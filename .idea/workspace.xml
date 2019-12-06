@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f578d932-2cc8-4850-a634-b7a5435b9a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/three/AoCDay3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/three/AoCDay3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2Part2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +33,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hidden/style/day/four" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hidden/style/day/five" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\five" />
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\four" />
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\three" />
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\two" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hidden.style.day.five" />
       <recent name="hidden.style.day.three" />
       <recent name="hidden.style.day.two" />
     </key>
@@ -47,22 +51,9 @@
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\one" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AoCDay3">
+  <component name="RunManager" selected="Application.AoCDay5">
     <configuration name="AoCDay2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hidden.style.day.two.AoCDay2" />
-      <module name="AdventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hidden.style.day.two.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AoCDay2Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hidden.style.day.two.AoCDay2Part2" />
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
@@ -100,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AoCDay5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hidden.style.day.five.AoCDay5" />
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hidden.style.day.five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Coordinate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hidden.style.day.three.Coordinate" />
       <module name="AdventOfCode" />
@@ -115,18 +119,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AoCDay2" />
-      <item itemvalue="Application.AoCDay2Part2" />
       <item itemvalue="Application.AoCDay3" />
       <item itemvalue="Application.Coordinate" />
       <item itemvalue="Application.AoCDay4" />
+      <item itemvalue="Application.AoCDay5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AoCDay5" />
         <item itemvalue="Application.AoCDay3" />
         <item itemvalue="Application.AoCDay4" />
         <item itemvalue="Application.Coordinate" />
         <item itemvalue="Application.AoCDay2" />
-        <item itemvalue="Application.AoCDay2Part2" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575437912019</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Advent of Code - Day 3 Part 2 finally working">
+      <created>1575518328147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575518328147</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Advent of Code - Day 5 Part 1 initial commit">
+      <created>1575525123342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575525123342</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,7 +223,9 @@
     <MESSAGE value="Advent of Code - Day 3 Part 2 (non-working)" />
     <MESSAGE value="Advent of Code - Day 4 Part 1 (working)" />
     <MESSAGE value="Advent of Code - Day 4 Part 2 (working)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advent of Code - Day 4 Part 2 (working)" />
+    <MESSAGE value="Advent of Code - Day 3 Part 2 finally working" />
+    <MESSAGE value="Advent of Code - Day 5 Part 1 initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advent of Code - Day 5 Part 1 initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1575421725224">
@@ -221,68 +241,80 @@
       <screen x="1920" y="-129" width="1920" height="1160" />
     </state>
     <state x="2596" y="168" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575180680743" />
-    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1575437911513">
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1575525122792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575437911513" />
-    <state x="2534" y="-3" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575436370249" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1575518239233">
-      <screen x="1920" y="-129" width="1920" height="1160" />
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575525122792" />
+    <state x="2534" y="-3" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518327234" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1575595755506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575515832467" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239233" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1575518239232">
-      <screen x="1920" y="-129" width="1920" height="1160" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1575595755506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575515832467" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239232" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1575518239232">
-      <screen x="1920" y="-129" width="1920" height="1160" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1575595755506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575515832466" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239232" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1575518239233">
-      <screen x="1920" y="-129" width="1920" height="1160" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1575595755506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575515832467" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575437502844">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575595755506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575437502844" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841329" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1575437502844">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1575595755506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575437502844" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841328" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1575437502844">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1575595755506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575437502844" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841328" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1575437502844">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1575595755506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575437502844" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841328" />
     <state x="540" y="262" key="IDE.errors.dialog" timestamp="1575353056768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575353056768" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575437913379">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575525128311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575437913379" />
-    <state x="2472" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575436372778" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575525128311" />
+    <state x="2472" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518341768" />
     <state x="2581" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575183348262">
       <screen x="1920" y="-129" width="1920" height="1160" />
     </state>
     <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575171485268" />
     <state x="2581" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575183348262" />
-    <state x="2543" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1575431034135">
-      <screen x="1920" y="-129" width="1920" height="1160" />
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1575523976909">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575523976909" />
     <state x="2543" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575431034135" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

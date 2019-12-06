@@ -15,7 +15,7 @@ public class AoCDay2 {
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay2.txt");
+        Scanner scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay5.txt");
         while(scan.hasNext()) {
             String str = scan.next();
             String[] arr = str.split(",");

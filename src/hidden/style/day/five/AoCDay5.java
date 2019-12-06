@@ -51,48 +51,55 @@ public class AoCDay5 {
                 if (opCode == 99) {
                     printArray(arr);
                     return;
-                }
-                    if(opCode == 1) {
-                        pos++;
-                        int val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                        if(firstParameter == 1) {
-                            val1 = Integer.parseInt(arr[pos]);
-                        }
-                        pos++;
-                        int val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                        if(secondParameter == 1) {
-                            val2 = Integer.parseInt(arr[pos]);
-                        }
-                        pos++;
-                        int val3 = Integer.parseInt(arr[pos]);
-                        arr[val3] = Integer.toString(val1 + val2);
-                        pos++;
-                    } else if(opCode == 2) {
-                        pos++;
-                        int val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                        if(firstParameter == 1) {
-                            val1 = Integer.parseInt(arr[pos]);
-                        }
-                        pos++;
-                        int val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                        if(secondParameter == 1) {
-                            val2 = Integer.parseInt(arr[pos]);
-                        }
-                        pos++;
-                        int val3 = Integer.parseInt(arr[pos]);
-                        arr[val3] = Integer.toString(val1 * val2);
-                        pos++;
-                    } else if(opCode == 3) {
-                        pos++;
-                        int val1 = Integer.parseInt(arr[pos]);
-                        arr[val1] = String.valueOf(inputValue);
-                        pos++;
-                    } else if(opCode == 4) {
-                        pos++;
-                        int val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                        System.out.println(val1);
-                        pos++;
+                } else if (opCode == 1) {
+                    pos++;
+                    int val1;
+                    if(firstParameter == 1) {
+                        val1 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
                     }
+                    pos++;
+                    int val2;
+                    if(secondParameter == 1) {
+                        val2 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    int val3 = Integer.parseInt(arr[pos]);
+                    arr[val3] = Integer.toString(val1 + val2);
+                    pos++;
+                } else if(opCode == 2) {
+                    pos++;
+                    int val1;
+                    if(firstParameter == 1) {
+                        val1 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    int val2;
+                    if(secondParameter == 1) {
+                        val2 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    int val3 = Integer.parseInt(arr[pos]);
+                    arr[val3] = Integer.toString(val1 * val2);
+                    pos++;
+                } else if(opCode == 3) {
+                    pos++;
+                    int val1 = Integer.parseInt(arr[pos]);
+                    arr[val1] = String.valueOf(inputValue);
+                    pos++;
+                } else if(opCode == 4) {
+                    pos++;
+                    int val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    System.out.println(val1);
+                    pos++;
+                }
             }
 
         }
