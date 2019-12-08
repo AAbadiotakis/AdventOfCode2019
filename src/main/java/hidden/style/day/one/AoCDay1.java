@@ -2,6 +2,7 @@ package hidden.style.day.one;
 
 import hidden.style.util.Utils;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -25,7 +26,7 @@ public class AoCDay1 {
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner scan = Utils.getScan("src/hidden/style/day/one/AdventOfCodeDay1.txt");
+        Scanner scan = Utils.getScan("src/main/java/hidden/style/day/one/AdventOfCodeDay1.txt");
         double totalFuelRequired = 0;
         while (scan.hasNextLine()) {
             String nextLine = scan.next();

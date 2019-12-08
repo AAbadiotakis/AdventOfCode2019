@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f578d932-2cc8-4850-a634-b7a5435b9a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/eight/AdventOfCodeDay8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/eight/AoCDay8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/six/AdventOfCodeDay6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/six/AoCDay6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/six/OrbitalMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2Part2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/hidden/style/day/one/AdventOfCodeDay1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/hidden/style/day/one/AoCDay1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/five/AdventOfCodeDay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/five/AdventOfCodeDay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/five/AoCDay5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/four/AoCDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/four/AoCDay4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/one/AdventOfCodeDay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/one/AdventOfCodeDay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/one/AoCDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/one/AoCDay1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/three/AdventOfCodeDay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/three/AdventOfCodeDay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/three/AoCDay3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/three/AoCDay3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/three/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/three/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AdventOfCodeDay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/two/AdventOfCodeDay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/two/AoCDay2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/day/two/AoCDay2Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/day/two/AoCDay2Part2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hidden/style/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hidden/style/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +45,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1UMfdq7MeAfP99xRxJejMGF1wGJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +67,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\five" />
+      <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\six" />
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\four" />
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\three" />
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\two" />
@@ -51,13 +81,13 @@
       <recent name="C:\Users\alex\IdeaProjects\AdventOfCode\src\hidden\style\day\one" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AoCDay5">
-    <configuration name="AoCDay2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hidden.style.day.two.AoCDay2" />
+  <component name="RunManager" selected="Application.AoCDay8">
+    <configuration name="AoCDay1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hidden.style.day.one.AoCDay1" />
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hidden.style.day.two.*" />
+          <option name="PATTERN" value="hidden.style.day.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,19 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AoCDay4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hidden.style.day.four.AoCDay4" />
-      <module name="AdventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hidden.style.day.four.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AoCDay5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hidden.style.day.five.AoCDay5" />
       <module name="AdventOfCode" />
@@ -104,12 +121,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coordinate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hidden.style.day.three.Coordinate" />
+    <configuration name="AoCDay6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hidden.style.day.six.AoCDay6" />
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hidden.style.day.three.*" />
+          <option name="PATTERN" value="hidden.style.day.six.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AoCDay8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hidden.style.day.eight.AoCDay8" />
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hidden.style.day.eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AoCDay2" />
       <item itemvalue="Application.AoCDay3" />
-      <item itemvalue="Application.Coordinate" />
-      <item itemvalue="Application.AoCDay4" />
       <item itemvalue="Application.AoCDay5" />
+      <item itemvalue="Application.AoCDay6" />
+      <item itemvalue="Application.AoCDay1" />
+      <item itemvalue="Application.AoCDay8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AoCDay8" />
+        <item itemvalue="Application.AoCDay6" />
+        <item itemvalue="Application.AoCDay1" />
         <item itemvalue="Application.AoCDay5" />
         <item itemvalue="Application.AoCDay3" />
-        <item itemvalue="Application.AoCDay4" />
-        <item itemvalue="Application.Coordinate" />
-        <item itemvalue="Application.AoCDay2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575525123342</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Advent of Code - Day 5 Part 1 working">
+      <created>1575595796787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575595796788</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,14 +262,23 @@
     <MESSAGE value="Advent of Code - Day 4 Part 2 (working)" />
     <MESSAGE value="Advent of Code - Day 3 Part 2 finally working" />
     <MESSAGE value="Advent of Code - Day 5 Part 1 initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advent of Code - Day 5 Part 1 initial commit" />
+    <MESSAGE value="Advent of Code - Day 5 Part 1 working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advent of Code - Day 5 Part 1 working" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1575421725224">
-      <screen x="1920" y="-129" width="1920" height="1160" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1575639727376">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575355318607" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575639727376" />
     <state x="2685" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575421725224" />
+    <state x="683" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575639550769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="683" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575639550769" />
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575604468253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575604468253" />
     <state x="756" y="404" width="407" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575176492709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,80 +287,69 @@
       <screen x="1920" y="-129" width="1920" height="1160" />
     </state>
     <state x="2596" y="168" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575180680743" />
-    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1575525122792">
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1575790384764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575525122792" />
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575790384764" />
     <state x="2534" y="-3" key="CommitChangelistDialog2/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518327234" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1575595755506">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1575790295720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575790295720" />
     <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239233" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1575595755506">
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1575790295720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575790295720" />
     <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239232" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1575595755506">
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1575790295720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575790295720" />
     <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239232" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1575595755506">
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1575790295720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575790295720" />
     <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518239233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575595755506">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1575640851342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575640851342" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841329" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1575595755506">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1575640851342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575640851342" />
     <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841328" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1575595755506">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1575640851342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575640851342" />
     <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841328" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1575595755506">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1575640851342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595755506" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575640851342" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575423841328" />
-    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1575353056768">
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1575644229973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575353056768" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575525128311">
+    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575644229973" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575595799741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575525128311" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575595799741" />
     <state x="2472" y="152" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575518341768" />
     <state x="2581" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575183348262">
       <screen x="1920" y="-129" width="1920" height="1160" />
     </state>
     <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575171485268" />
     <state x="2581" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575183348262" />
-    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1575523976909">
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1575789084202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575523976909" />
+    <state x="623" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040/1920.-129.1920.1160@0.0.1920.1040" timestamp="1575789084202" />
     <state x="2543" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-129.1920.1160@1920.-129.1920.1160" timestamp="1575431034135" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hidden/style/day/five/AoCDay5.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

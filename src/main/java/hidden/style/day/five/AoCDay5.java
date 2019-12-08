@@ -23,9 +23,15 @@ public class AoCDay5 {
         while(scan.hasNext()) {
             String str = scan.next();
             String[] arr = str.split(",");
+            printArray(arr);
             int pos = 0;
 
             while (true) {
+                if(pos > arr.length) {
+                    System.out.println("Reached pos > arr length");
+                    printArray(arr);
+                    return;
+                }
                 String fullCode = arr[pos];
                 int firstParameter = 0;
                 int secondParameter = 0;
@@ -69,6 +75,7 @@ public class AoCDay5 {
                     pos++;
                     int val3 = Integer.parseInt(arr[pos]);
                     arr[val3] = Integer.toString(val1 + val2);
+                    System.out.println("Updating position " + val3 + " to " + (val1 + val2));
                     pos++;
                 } else if(opCode == 2) {
                     pos++;
@@ -88,21 +95,99 @@ public class AoCDay5 {
                     pos++;
                     int val3 = Integer.parseInt(arr[pos]);
                     arr[val3] = Integer.toString(val1 * val2);
+                    System.out.println("Updating position " + val3 + " to " + (val1 * val2));
                     pos++;
                 } else if(opCode == 3) {
                     pos++;
                     int val1 = Integer.parseInt(arr[pos]);
                     arr[val1] = String.valueOf(inputValue);
+                    System.out.println("Updating position " + val1 + " to " + inputValue);
                     pos++;
                 } else if(opCode == 4) {
                     pos++;
                     int val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                    System.out.println(val1);
+                    System.out.println("Output: " + val1);
                     pos++;
+                } else if(opCode == 5) {
+                    pos++;
+                    if(firstParameter == 1) {
+                        if(pos != 0) {
+                            pos = Integer.parseInt(arr[pos]);
+                            System.out.println("moving position to " + pos);
+                        }
+                    } else {
+                        if(Integer.parseInt(arr[pos]) != 0) {
+                            pos = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                            System.out.println("moving position to " + pos);
+                        }
+                    }
+                } else if(opCode == 6) {
+                    pos++;
+                    if(firstParameter == 1) {
+                        if(pos == 0) {
+                            pos = Integer.parseInt(arr[pos]);
+                            System.out.println("Moving position to " + pos);
+                        }
+                    } else {
+                        if(Integer.parseInt(arr[pos]) == 0) {
+                            pos = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                            System.out.println("Moving position to " + pos);
+                        }
+                    }
+                } else if(opCode == 7) {
+                    pos++;
+                    int val1;
+                    if(firstParameter == 1) {
+                        val1 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    int val2;
+                    if(secondParameter == 1) {
+                        val2 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    if(val1 < val2) {
+                        arr[pos] = String.valueOf(1);
+                        System.out.println("Updating position " + pos + " to 1");
+                    } else {
+                        arr[pos] = String.valueOf(0);
+                        System.out.println("Updating position " + pos + " to 0");
+                    }
+                } else if(opCode == 8) {
+                    pos++;
+                    int val1;
+                    if(firstParameter == 1) {
+                        val1 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    int val2;
+                    if(secondParameter == 1) {
+                        val2 = Integer.parseInt(arr[pos]);
+                    } else {
+                        val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
+                    }
+                    pos++;
+                    if(val1 == val2) {
+                        arr[pos] = String.valueOf(1);
+                        System.out.println("Updating position " + pos + " to 1");
+                    } else {
+                        arr[pos] = String.valueOf(0);
+                        System.out.println("Updating position " + pos + " to 0");
+                    }
+                } else {
+                    System.out.println("Error, opCode not found: " + opCode + " at position " + pos);
+                    printArray(arr);
+                    return;
                 }
             }
-
         }
+
 
     }
 }

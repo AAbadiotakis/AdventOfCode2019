@@ -15,14 +15,14 @@ public class AoCDay2Part2 {
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay5.txt");
+        Scanner scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay2.txt");
         String str = scan.next();
         String[] arr = str.split(",");
 
         while(true) {
             for (int noun = 0; noun <= 99; noun++ ) {
                 for (int verb = 0; verb <= 99; verb++) {
-                    scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay5.txt");
+                    scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay2.txt");
                     str = scan.next();
                     arr = str.split(",");
                     arr[1] = Integer.toString(noun);
