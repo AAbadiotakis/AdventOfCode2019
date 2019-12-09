@@ -1,45 +1,28 @@
 package hidden.style.day.two;
 
+import hidden.style.util.IntCodeProgram;
 import hidden.style.util.Utils;
 
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class AoCDay2 {
 
-    public static void printArray(String[] arr) {
-        for(String str : arr) {
-            System.out.print(str + ",");
-        }
-        System.out.println();
-    }
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scan = Utils.getScan("src/main/java/hidden/style/day/two/AdventOfCodeDay2.txt");
+        String inputString = scan.next();
+        String[] inputArray = inputString.split(",");
+        System.out.println("Answer Part 1: " + IntCodeProgram.decodeString(inputArray, null));
 
-    public static void main(String[] args) throws IOException {
-        Scanner scan = Utils.getScan("src/hidden/style/day/two/AdventOfCodeDay2.txt");
-        while(scan.hasNext()) {
-            String str = scan.next();
-            String[] arr = str.split(",");
-            int pos = 0;
-            while (true) {
-                int opCode = Integer.parseInt(arr[pos]);
-                if (opCode == 99) {
-                    /* Finished */
-                    printArray(arr);
-                    return;
-                }
-                pos++;
-                int val1 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                pos++;
-                int val2 = Integer.parseInt(arr[Integer.parseInt(arr[pos])]);
-                pos++;
-                int val3 = Integer.parseInt(arr[pos]);
-                pos++;
-                if (opCode == 1) {
-                    /* Addition */
-                    arr[val3] = Integer.toString(val1 + val2);
-                } else if (opCode == 2) {
-                    /* Multiplication */
-                    arr[val3] = Integer.toString(val1 * val2);
+        for (int noun = 0; noun < 99; noun++) {
+            for (int verb = 0; verb < 99; verb++) {
+                scan = Utils.getScan("src/main/java/hidden/style/day/two/AdventOfCodeDay2.txt");
+                inputString = scan.next();
+                inputArray = inputString.split(",");
+                inputArray[1] = String.valueOf(noun);
+                inputArray[2] = String.valueOf(verb);
+                if (IntCodeProgram.decodeString(inputArray, null) == 19690720) {
+                    System.out.println("Answer Part 2: " + (100 * noun + verb));
                 }
             }
         }
