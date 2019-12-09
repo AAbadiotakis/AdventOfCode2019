@@ -2,19 +2,19 @@ package hidden.style.util;
 
 public enum OpCode {
 
-    ADDITION(1,3),
-    MULTIPLICATION(2, 3),
-    INPUT(3,1),
-    OUTPUT(4,1),
-    JUMP_IF_TRUE(5,2),
-    JUMP_IF_FALSE(6,2),
-    LESS_THAN(7,3),
-    EQUALS(8,3),
-    COMPLETED(99, 0);
+    ADDITION(1,4),
+    MULTIPLICATION(2, 4),
+    INPUT(3,2),
+    OUTPUT(4,2),
+    JUMP_IF_TRUE(5,3),
+    JUMP_IF_FALSE(6,3),
+    LESS_THAN(7,4),
+    EQUALS(8,4),
+    COMPLETED(99, 1);
 
 
-    int intCode;
-    int parameters;
+    private int intCode;
+    private int parameters;
 
     OpCode(int intCode, int parameters) {
         this.intCode = intCode;
