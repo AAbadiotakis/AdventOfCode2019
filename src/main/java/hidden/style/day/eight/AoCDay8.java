@@ -5,6 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.io.FileNotFoundException;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class AoCDay8 {
 
@@ -67,6 +68,36 @@ public class AoCDay8 {
             }
 
             System.out.println("Answer part 1 = " + (count1Digits * count2Digits));
+            System.out.println(layerMap);
+
+            Map<Integer, String> layerToPrint = new HashMap<>();
+            for(Integer j : layerMap.keySet()) {
+                List<String> layerMappedList = layerMap.get(j);
+                System.out.println("layerMappedList of layerMap position " + j + ", " + layerMappedList);
+
+                for (int x = 0; x < layerMappedList.size(); x++) {
+                    if(layerToPrint.containsKey(x)) {
+                        StringBuilder sb1 = new StringBuilder(layerToPrint.get(x));
+                        StringBuilder sb2 = new StringBuilder(layerMappedList.get(x));
+                        for(int y = 0; y < sb1.length(); y++) {
+                            if(sb1.charAt(y) == '2') {
+                                sb1.setCharAt(y, sb2.charAt(y));
+                            }
+                        }
+                        layerToPrint.put(x, sb1.toString());
+                    } else {
+                        layerToPrint.put(x, layerMappedList.get(x));
+                    }
+                    System.out.println("layerToPrint: " + layerToPrint);
+                }
+            }
+            System.out.println(layerToPrint);
+            for(int j : layerToPrint.keySet()) {
+                String str = layerToPrint.get(j);
+                str = str.replaceAll("1", " * ");
+                str = str.replaceAll("0", " | ");
+                System.out.println(str);
+            }
         }
 
     }
