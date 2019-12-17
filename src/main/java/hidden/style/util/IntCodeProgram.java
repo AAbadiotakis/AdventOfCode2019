@@ -2,7 +2,8 @@ package hidden.style.util;
 
 public class IntCodeProgram {
 
-    public static int decodeString(int[] inputArray, Integer inputValue) throws Exception {
+    public static int decodeString(int[] intArray, Integer inputValue) throws Exception {
+        int[] inputArray = intArray.clone();
         int i = 0;
         while(i < inputArray.length) {
             int aParamMode = inputArray[i] / 100 % 10;

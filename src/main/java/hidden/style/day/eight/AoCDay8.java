@@ -5,7 +5,6 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.io.FileNotFoundException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class AoCDay8 {
 
